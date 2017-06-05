@@ -4,19 +4,28 @@
     <meta charset="utf-8">
     <title>Mocha test</title>
     <link rel="stylesheet" href="vendor/mocha.css" />
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+
 
   </head>
   <body>
     <h1>_Testing_Testing_</h1>
+    <textarea class="codemirror-textarea"></textarea>
     <div id="mocha"></div>
 
     <!-- Mocha styles, Mocha and Chai scripts -->
     <script src="vendor/mocha.js"></script>
     <script src="vendor/chai.js"></script>
 
- <!-- Our js file with functions and tests -->
- <script src="main.js"></script>
- <script src="test/apptests.js"></script>
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- codemirror -->
+    <script src="codemirror/lib/codemirror.js"></script>
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+
+    <!-- Our js file with functions and tests -->
+    <script src="main.js"></script>
+    <script src="test/apptests.js"></script>
 
   </body>
 </html>

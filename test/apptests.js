@@ -3,6 +3,12 @@
 
 
 window.onload = function() {
+  var code = $(".codemirror-textarea")[0]
+  var editor = CodeMirror.fromTextArea(code, {
+    mode: 'javascript',
+    lineNumbers : true
+  })
+
   var should = chai.should();
   mocha.setup('bdd');
   describe('test', function() {
