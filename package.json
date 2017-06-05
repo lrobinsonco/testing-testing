@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "app",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "code-mirror-themes": "^1.0.0"
+  },
   "devDependencies": {
     "chai": "^4.0.1",
     "mocha": "^3.4.2",
